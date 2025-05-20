@@ -20,8 +20,7 @@ func PerformTest(serverList speedtest.Servers, writer *csv.Writer) {
 
     bestServer := targets[0]
 
-    // Test server latency first
-    fmt.Println("Testing latency...")
+   
     //err = bestServer.PingTest()
     if err != nil {
         log.Printf("Latency test failed: %v\n", err)
@@ -29,14 +28,14 @@ func PerformTest(serverList speedtest.Servers, writer *csv.Writer) {
     }
 
     // Run tests
-    fmt.Println("Testing download speed...")
+    
     err = bestServer.DownloadTest()
     if err != nil {
         log.Printf("Download test failed: %v\n", err)
         return
     }
 
-    fmt.Println("Testing upload speed...")
+   
     err = bestServer.UploadTest()
     if err != nil {
         log.Printf("Upload test failed: %v\n", err)
