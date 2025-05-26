@@ -49,6 +49,7 @@ go get github.com/showwin/speedtest-go/speedtest
     Runs continuously every 10 seconds until interrupted.
 
 ## 💻 Sample Output
+```
 
 [2025-05-21 12:14:48]
 Server: Nairobi (Kenya)
@@ -56,6 +57,7 @@ Download: 0.01 Mbps
 Upload: 0.00 Mbps
 Latency: 238.00 ms
 --------------------------------------------------
+```
 
 
 ## 🧹 Graceful Shutdown
@@ -83,4 +85,3 @@ When you press Ctrl+C, the app will:
 
 ---
 
-Let me know if you want a version with badges, screenshots, or Docker instructions!
