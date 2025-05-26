@@ -13,6 +13,14 @@ A lightweight Go application that **automates internet speed tests** and logs re
 - 📍 Logs: Timestamp, Download (Mbps), Upload (Mbps), Latency (ms), Server Name, Server Location
 
 ---
+## ⚙️ Setup and Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Brace1000/speedtest.git
+cd speedtest
+```
 
 ## 🛠️ Requirements
 
